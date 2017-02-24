@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 	<script type="text/javascript" src="https://www.pureexample.com/js/lib/jquery.ui.touch-punch.min.js"></script>
 		
-	<script>
+<!--	<script>
 	$(function () {
 	        $("div[class='dragx']").draggable({
 	                containment: "#box",
@@ -40,4 +40,26 @@
 
 </body>
 
-</html>
+</html> -->
+	
+<script>
+	
+
+	$(document).ready(function(){
+	    $("#btn1").click(function(){
+		document.getLabelById('bluesquare').textContent
+	    });
+
+	});
+</script>
+	
+</head>
+	
+<body>
+	<button id="btn1">a<sup>2</sup></button>
+	<button id="btn2">Show HTML</button>
+
+	<label id="bluesquare">
+	<div id="squareblue"  class="dragx"><center><p>a</p></center></div>
+	</label>
+</body>
